@@ -1,0 +1,19 @@
+@import 'partial/reset';
+@import 'partial/module';
+@import 'partial/layout';
+
+body {
+  background: #eee;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.js-canvas-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/fall-forest.jpg);
+  background-size: cover;
+}
